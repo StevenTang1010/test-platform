@@ -1,0 +1,259 @@
+[
+{
+  "model": "api_test.globalenv",
+  "pk": 1,
+  "fields": {
+    "name": "ali",
+    "config": {
+      "company_id": {
+        "value": "W00000000226",
+        "description": "公司ID"
+      },
+      "base_url_mk": {
+        "value": "https://mk.dustess.com",
+        "description": "服务商后台地址"
+      },
+      "base_url_qw": {
+        "value": "https://qw-scrm.dustess.com",
+        "description": "企微端地址"
+      },
+      "base_url_oss_bill": {
+        "value": "https://bill.dustess.com",
+        "description": "运营计费地址"
+      },
+      "base_url_oss_official": {
+        "value": "https://bill.dustess.com",
+        "description": "运营官方地址"
+      },
+      "corp_id": {
+        "value": "ww0f7acb797142e8d3",
+        "description": "corp_id"
+      },
+      "token": {
+        "value": "YVsCASkZYfEvcutBdZUs",
+        "description": "token"
+      },
+      "aes_key": {
+        "value": "pnGpwLHNTRcgamKvbiEiVZgfBkFGLkEwteFILFuLPoc",
+        "description": "aes_key"
+      },
+      "external_contact_corp_secret": {
+        "value": "dy4nNXVGOznLaPwzEnX9zOble1VVGm4T3lh-W3N-tP8",
+        "description": "客户联系corp_secret"
+      }
+    },
+    "data": {},
+    "mock": {},
+    "mock_dynamic": false,
+    "description": "阿里云",
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalenv",
+  "pk": 2,
+  "fields": {
+    "name": "tx",
+    "config": {
+      "company_id": {
+        "value": "W00000000002",
+        "description": "公司ID"
+      },
+      "base_url_mk": {
+        "value": "https://mk-tx.dustess.com",
+        "description": "服务商后台地址"
+      },
+      "base_url_qw": {
+        "value": "https://qw-scrm-tx.dustess.com",
+        "description": "企微端地址"
+      },
+      "base_url_oss_bill": {
+        "value": "https://bill-tx.dustess.com",
+        "description": "运营计费地址"
+      },
+      "base_url_oss_official": {
+        "value": "http://oss-official-tx.dustess.com",
+        "description": "运营官方地址"
+      },
+      "corp_id": {
+        "value": "ww0eb576239f394639",
+        "description": "corp_id"
+      },
+      "token": {
+        "value": "",
+        "description": "token"
+      },
+      "aes_key": {
+        "value": "",
+        "description": "aes_key"
+      },
+      "external_contact_corp_secret": {
+        "value": "8XFqwh6O4IXT5m0HEfsv2QX8MyXZo3zassj-Qp96xjo",
+        "description": "客户联系corp_secret"
+      }
+    },
+    "data": {},
+    "mock": {},
+    "mock_dynamic": false,
+    "description": "腾讯云",
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalenv",
+  "pk": 3,
+  "fields": {
+    "name": "qa",
+    "config": {
+      "company_id": {
+        "value": "W00000000514",
+        "description": "公司ID"
+      },
+      "base_url_mk": {
+        "value": "https://mk-qa.dustess.com",
+        "description": "服务商后台地址"
+      },
+      "base_url_qw": {
+        "value": "https://qw-scrm-qa.dustess.com",
+        "description": "企微端地址"
+      },
+      "base_url_oss_bill": {
+        "value": "https://oss-bill-qa.dustess.com",
+        "description": "运营计费地址"
+      },
+      "base_url_oss_official": {
+        "value": "http://oss-official-qa.dustess.com",
+        "description": "运营官方地址"
+      },
+      "corp_id": {
+        "value": "ww65575ea1258f742b",
+        "description": "corp_id"
+      },
+      "token": {
+        "value": "",
+        "description": "token"
+      },
+      "aes_key": {
+        "value": "",
+        "description": "aes_key"
+      },
+      "external_contact_corp_secret": {
+        "value": "4yftBLLEZaFXbeoDGLu_sKJhJDAmje9Acsfzpcoyin0",
+        "description": "客户联系corp_secret"
+      }
+    },
+    "data": {},
+    "mock": {},
+    "mock_dynamic": false,
+    "description": "qa环境",
+    "status": false,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalconst",
+  "pk": 1,
+  "fields": {
+    "name": "user_id",
+    "value": "1",
+    "description": "用户ID",
+    "status": true
+  }
+},
+{
+  "model": "api_test.globalheader",
+  "pk": 1,
+  "fields": {
+    "name": "User-Agent",
+    "value": "{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36\"}",
+    "description": "User-Agent",
+    "status": true
+  }
+},
+{
+  "model": "api_test.globalresponsevalidate",
+  "pk": 1,
+  "fields": {
+    "name": "仅校验HttpCode==200",
+    "description": "仅校验HttpCode==200",
+    "check_status_code": true,
+    "check_response_data": false,
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalresponsevalidate",
+  "pk": 2,
+  "fields": {
+    "name": "校验数据响应",
+    "description": "全部校验，包括校验数据响应",
+    "check_status_code": true,
+    "check_response_data": true,
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 1,
+  "fields": {
+    "name": "P0",
+    "type": "priority",
+    "status": true,
+    "description": "最高优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 2,
+  "fields": {
+    "name": "P1",
+    "type": "priority",
+    "status": true,
+    "description": "高优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 3,
+  "fields": {
+    "name": "P2",
+    "type": "priority",
+    "status": true,
+    "description": "一般优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 4,
+  "fields": {
+    "name": "P3",
+    "type": "priority",
+    "status": true,
+    "description": "较低优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 5,
+  "fields": {
+    "name": "Smoke",
+    "type": "testing",
+    "status": true,
+    "description": "冒烟测试"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 6,
+  "fields": {
+    "name": "巡检",
+    "type": "testing",
+    "status": true,
+    "description": "线上巡检"
+  }
+}
+]

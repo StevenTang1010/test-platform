@@ -1,0 +1,20 @@
+{
+  "name": "platpress",
+  "version": "1.0.0",
+  "description": "自动化测试平台",
+  "main": "index.js",
+  "scripts": {
+    "test": "vue-cli-service serve --mode test --port 9527",
+    "test:unit": "jest --clearCache && vue-cli-service test:unit",
+    "test:ci": "npm run lint && npm run test:unit",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "tao.xu2008@outlook.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "^1.8.2"
+  }
+}

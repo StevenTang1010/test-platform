@@ -1,0 +1,315 @@
+[
+{
+  "model": "api_test.department",
+  "pk": 1,
+  "fields": {
+    "name": "商城",
+    "leader": "sc",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.department",
+  "pk": 2,
+  "fields": {
+    "name": "营销",
+    "leader": "yx",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.department",
+  "pk": 3,
+  "fields": {
+    "name": "CRM",
+    "leader": "crm",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.project",
+  "pk": 1,
+  "fields": {
+    "name": "产业互联",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.project",
+  "pk": 2,
+  "fields": {
+    "name": "基础项目",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.project",
+  "pk": 3,
+  "fields": {
+    "name": "营销系统业务",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.project",
+  "pk": 4,
+  "fields": {
+    "name": "运营支撑系统",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.project",
+  "pk": 5,
+  "fields": {
+    "name": "销售线索系统",
+    "create_time": "2021-11-29 10:00",
+    "update_time": "2021-11-29 10:00",
+    "delete_time": null
+  }
+},
+{
+  "model": "api_test.globalenv",
+  "pk": 1,
+  "fields": {
+    "name": "ali",
+    "data": [
+      {
+        "description": "公司ID",
+        "name": "company_id",
+        "value": ""
+      },
+      {
+        "description": "服务商后台Host地址",
+        "name": "host_mk",
+        "value": ""
+      },
+      {
+        "description": "企微Host地址",
+        "name": "host_qw",
+        "value": ""
+      },
+      {
+        "description": "计费Host地址",
+        "name": "host_bill",
+        "value": ""
+      }
+    ],
+    "company_id": "W00000000039",
+    "host_mk": "https://mk.dustess.com",
+    "host_qw": "https://qw-scrm.dustess.com",
+    "host_bill": "https://bill.dustess.com",
+    "description": "阿里云",
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalenv",
+  "pk": 2,
+  "fields": {
+    "name": "tx",
+    "data": [
+      {
+        "description": "公司ID",
+        "name": "company_id",
+        "value": ""
+      },
+      {
+        "description": "服务商后台Host地址",
+        "name": "host_mk",
+        "value": ""
+      },
+      {
+        "description": "企微Host地址",
+        "name": "host_qw",
+        "value": ""
+      },
+      {
+        "description": "计费Host地址",
+        "name": "host_bill",
+        "value": ""
+      }
+    ],
+    "company_id": "W00000000002",
+    "host_mk": "https://mk-tx.dustess.com",
+    "host_qw": "https://qw-scrm-tx.dustess.com",
+    "host_bill": "https://bill-tx.dustess.com",
+    "description": "腾讯云",
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalenv",
+  "pk": 3,
+  "fields": {
+    "name": "qa",
+    "data": [
+      {
+        "description": "公司ID",
+        "name": "company_id",
+        "value": ""
+      },
+      {
+        "description": "服务商后台Host地址",
+        "name": "host_mk",
+        "value": ""
+      },
+      {
+        "description": "企微Host地址",
+        "name": "host_qw",
+        "value": ""
+      },
+      {
+        "description": "计费Host地址",
+        "name": "host_bill",
+        "value": ""
+      }
+    ],
+    "company_id": "W00000000514",
+    "host_mk": "https://mk-qa.dustess.com",
+    "host_qw": "https://qw-scrm-qa.dustess.com",
+    "host_bill": "https://oss-bill-qa.dustess.com",
+    "description": "qa环境",
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalconst",
+  "pk": 1,
+  "fields": {
+    "name": "user_id",
+    "value": "1",
+    "description": "用户ID",
+    "status": true
+  }
+},
+{
+  "model": "api_test.globalheader",
+  "pk": 1,
+  "fields": {
+    "name": "User-Agent",
+    "value": "{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36\"}",
+    "description": "User-Agent",
+    "status": true
+  }
+},
+{
+  "model": "api_test.globalresponsevalidate",
+  "pk": 1,
+  "fields": {
+    "name": "仅校验HttpCode==200",
+    "description": "仅校验HttpCode==200",
+    "check_status_code": true,
+    "check_response_data": false,
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globalresponsevalidate",
+  "pk": 2,
+  "fields": {
+    "name": "校验数据响应",
+    "description": "全部校验，包括校验数据响应",
+    "check_status_code": true,
+    "check_response_data": true,
+    "status": true,
+    "is_default": false
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 1,
+  "fields": {
+    "name": "P0",
+    "type": "priority",
+    "status": true,
+    "description": "最高优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 2,
+  "fields": {
+    "name": "P1",
+    "type": "priority",
+    "status": true,
+    "description": "高优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 3,
+  "fields": {
+    "name": "P2",
+    "type": "priority",
+    "status": true,
+    "description": "一般优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 4,
+  "fields": {
+    "name": "P3",
+    "type": "priority",
+    "status": true,
+    "description": "较低优先级"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 5,
+  "fields": {
+    "name": "Smoke",
+    "type": "testing",
+    "status": true,
+    "description": "冒烟测试"
+  }
+},
+{
+  "model": "api_test.globallabel",
+  "pk": 6,
+  "fields": {
+    "name": "巡检",
+    "type": "testing",
+    "status": true,
+    "description": "线上巡检"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$Xs3Z5sqMB6ysPN3r1dGt02$icWYTSCNZRVjnm3AjsE089wU7iI7uA61ZFsqo48+YyA=",
+    "last_login": "2021-09-07T06:34:00Z",
+    "is_superuser": false,
+    "username": "tester",
+    "first_name": "",
+    "last_name": "",
+    "email": "test@126.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-07T06:34:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
